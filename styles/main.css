@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav {
+    padding: 16px 68px 8px 68px;
+}
+
+.graytext {
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+}
+
+.contactinfo {
+    margin-right: 24px;
+    padding-right: 28px;
+    border-right: 2px solid lightgrey;
+}
+
+#remove {
+    border: none !important
+}
+
+.contactinfo span {
+    color: rgb(29, 159, 66);
+    font-weight: 400;
+}
+
+.brandlogo span {
+    background-color: rgb(29, 159, 66);
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: 800;
+}
+
+.navitem {
+    list-style: none;
+    padding: 16px 18px;
+}
+
+.navitem a {
+    text-decoration: none;
+    color: black;
+}
+
+.navitem a:hover {
+    color: white;
+    background-color: rgb(29, 159, 66);
+}
+
+#app {
+    background-color: rgb(29, 159, 66);
+    color: white;
+    padding: 10px 20px;
+}
+
+#app a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    background-image: url(../images/team-image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.hometxt1 {
+    font-size: 20px;
+}
+
+.hometxt2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#about {
+    background-image: url(../images/about-bg.jpg);
+    background-size: cover;
+    padding: 100px 40px;
+    height: 100vh;
+
+
+
+}
+
+.aboutText {
+    width: 600px;
+}
+
+.health {
+    padding: 3px;
+    margin: 8px 0px;
+    font-size: 40px !important;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#authorimage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px 10px 10px 10px;
+    float: left;
+}
+
+.logo span {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border: none;
+    font-weight: 800;
+
+}
+
+.lorem {
+    padding: 20px 0;
+    /* margin: 10px; */
+    line-height: 20px;
+
+}
+
+
+
+
+/* #doctors {      
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 30px ;
+    font-size: 16px;
+    margin: 10px;
+    
+} */
+
+
+
+#homebutton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.drcard {
+    width: 40px;
+    padding: 15px 0;
+}
+
+.drcard img {
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 2px 0;
+}
+
+.doccard img {
+    width: 100%;
+}
+
+.hori {
+    display: flex;
+    width: 1000px;
+}
+
+
+    
+.doccard {
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+.appointment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    
+
+}
+.appointment img {
+    width: 100%;
+    height: 100%;
+}
+.contact{
+    display: flex;
+    margin-top: 5%;
+   
+    
+}
+.div-contact{
+    margin-left: 3%;
+    width: 45%;
+}
+.image-div{
+    display: flex;
+    align-items: center;
+    margin-top:5% ;
+}
+#Opening{
+    font-size: 25px;
+}
+.class{
+    margin-top: 5%;
+    
+}
+.fa-twitter{
+    margin: 0px 14px;
+}
+#contact{
+    margin: 35px 0px;
+    margin-left: 6%;
+}
+.news-image{
+    width: 65px;
+    height: 65px;
+    border-radius: 35px;
+    margin-right: 15px;
+}
+.amet{
+    margin: 24px 0px;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.square{
+
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+} 
+#footer{
+    display: flex;
+    border-top: 2px solid rgba(128, 128, 128, 0.493);
+    padding: 20px 0px;
+    
+    
+    
+}       
+.footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 12%;
+}
+.footer p{
+    margin: 0px 10px;
+} 
+#Copyright{
+    margin-left: 12%;
+    
+    
+}       
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .topnav {
+        padding: 16px 20px;
+    }
+
+    .horizontal {
+        flex-direction: column;
+
+    }
+
+    .mobilehori {
+        flex-direction: row;
+    }
+
+    .mobnav {
+        display: none;
+    }
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
